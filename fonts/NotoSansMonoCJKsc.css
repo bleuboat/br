@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Noto Sans Mono CJK SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fastly.jsdelivr.net/gh/notofonts/noto-cjk@main/Sans/Mono/NotoSansMonoCJKsc-Regular.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans Mono CJK SC';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fastly.jsdelivr.net/gh/notofonts/noto-cjk@main/Sans/Mono/NotoSansMonoCJKsc-Bold.otf) format('opentype');
+}
