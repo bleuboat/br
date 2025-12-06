@@ -1,0 +1,734 @@
+body {
+    font-family: unset;
+    font-size: unset;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: unset;
+    font-size: unset;
+    font-weight: unset;
+}
+blockquote {
+    border: unset;
+    padding: unset;
+    background-color: unset;
+}
+a {
+    color: unset;
+}
+a:hover {
+    background-color: unset;
+}
+h1 a {
+    text-decoration: unset;
+}
+body.wait,
+body.wait * {
+    cursor: unset;
+}
+form {
+    margin: unset;
+    padding: unset;
+}
+a.newpage {
+    color: unset;
+}
+table.wiki-content-table {
+    border-collapse: unset;
+    border-spacing: unset;
+    margin: unset;
+}
+table.wiki-content-table td {
+    border: unset;
+    padding: unset;
+}
+table.wiki-content-table th {
+    border: unset;
+    padding: unset;
+    background-color: unset;
+}
+#toc {
+    margin: unset;
+    padding: unset;
+    border: unset;
+    background-color: unset;
+    display: unset;
+}
+#toc .title {
+    font-weight: unset;
+    margin: unset;
+    padding: unset;
+    text-align: unset;
+}
+#toc #toc-action-bar {
+    padding: unset;
+}
+#toc-list {
+    margin: unset;
+}
+#toc.floatright {
+    float: unset;
+    margin: unset;
+}
+#toc.floatleft {
+    float: unset;
+    margin: unset;
+}
+tt {
+    font-family: unset;
+    font-size: unset;
+}
+pre {
+    font-family: unset;
+}
+.code {
+    border: unset;
+    background-color: unset;
+    font-family: unset;
+    padding: unset;
+    margin: unset;
+    overflow: unset;
+}
+code {
+    font-family: unset;
+}
+.math-equation {
+    text-align: unset;
+    padding: unset;
+    height: unset; 
+    display: unset;
+}
+.equation-number {
+    float: unset;
+    margin-top: unset;
+    font-size: unset;
+}
+.math-inline {
+    display: unset;
+}
+#MathJax_Message {
+    display: unset;
+}
+.math-inline span.merror {
+    color: unset;
+}
+a.inline-math-error {
+    padding: unset;
+    font-weight: unset;
+}
+a.math-equation-error {
+    padding: unset;
+    font-weight: unset;
+}
+div.wiki-note {
+    width: unset;
+    margin: unset;
+    border: unset;
+    text-align: unset;
+}
+.footnotes-footer {
+    margin: unset;
+    padding: unset;
+    height: unset;
+}
+.footnotes-footer .title {
+    margin: unset;
+    font-size: unset;
+    font-weight: unset;
+}
+a.footnoteref {
+    display: unset;
+}
+.bibitems {
+    margin: unset;
+    padding: unset;
+}
+.bibitems .title {
+    margin: unset;
+    font-size: unset;
+    font-weight: unset;
+}
+.bibitem {
+    height: unset; 
+}
+a.bibcite {
+    display: unset;
+}
+.image-container {
+    padding: unset;
+}
+.image-container.aligncenter {
+    text-align: unset;
+}
+.image-container.alignright {
+    padding-right: unset;
+    text-align: unset;
+}
+.image-container.alignleft {
+    padding-left: unset;
+    text-align: unset;
+}
+.image-container.floatright {
+    padding-right: unset;
+    float: unset;
+}
+.image-container.floatleft {
+    padding-left: unset;
+    float: unset;
+}
+.gallery-box {
+    overflow: unset;
+    width: unset;
+}
+.gallery-item {
+    float: unset;
+    margin: unset;
+    border: unset;
+}
+.gallery-item table {
+    width: unset;
+    height: unset;
+}
+.gallery-item td {
+    text-align: unset;
+}
+.gallery-item.square {
+    width: unset;
+    height: unset;
+}
+.gallery-item.thumbnail {
+    width: unset;
+    height: unset;
+}
+.gallery-item.small {
+    width: unset;
+    height: unset;
+}
+.gallery-item.medium {
+    width: unset;
+    height: unset;
+}
+.gallery-box .gallery-item table,
+.gallery-box .gallery-item .td {
+    margin: unset;
+    padding: unset;
+    border-collapse: unset;
+    border-spacing: unset;
+}
+.new-page-box {
+    text-align: unset;
+    margin: unset;
+}
+pre {
+    width: unset;
+    overflow: unset;
+}
+.pager {
+    margin: unset;
+    text-align: unset;
+}
+.pager-no {
+    padding: unset;
+}
+.pager .dots {
+    padding: unset;
+    margin: unset;
+}
+.pager a {
+    padding: unset;
+    margin: unset;
+    border: unset;
+    text-decoration: unset;
+}
+.pager .current {
+    padding: unset;
+    margin: unset;
+    font-weight: unset;
+    background-color: unset;
+    color: unset;
+    border: unset;
+}
+.printuser a {
+    margin-right: unset;
+}
+.printuser img.small {
+    vertical-align: unset;
+    margin: unset;
+    width: unset;
+    height: unset;
+    z-index: unset;
+    padding: unset;
+    background-repeat: unset;
+    background-position: unset;
+}
+.printuser.anonymous img.small {
+    padding: unset;
+}
+a.avatar-hover,
+a.avatar-hover:hover {
+    background: unset;
+    background-image: unset;
+    padding: unset;
+    text-decoration: unset;
+    font-size: unset;
+    color: unset;
+    font-weight: unset;
+}
+a.avatar-hover img {
+    vertical-align: unset;
+}
+a.avatar-hover div {
+    position: unset;
+}
+a.avatar-hover div div {
+    position: unset;
+    left: unset;
+    top: unset;
+    height: unset;
+    right: unset;
+    width: unset;
+    background-color: unset;
+    opacity: unset;
+    filter: unset;
+}
+a.avatar-hover div span {
+    padding: unset;
+    margin: unset;
+    background-color: unset;
+    opacity: unset;
+    filter: unset;
+    z-index: unset;
+}
+.printuser a:hover img.large {
+    display: unset;
+}
+.printuser .ip {
+    font-size: unset;
+}
+hr {
+    margin: unset;
+    padding: unset;
+    height: unset;
+    border: unset;
+    color: unset;
+    background-color: unset;
+}
+.yui-navset .yui-nav li,
+.yui-navset .yui-navset-top .yui-nav li,
+.yui-navset .yui-navset-bottom .yui-nav li {
+    margin: unset; 
+}
+.yui-navset-left .yui-nav li,
+.yui-navset-right .yui-nav li {
+    margin: unset; 
+}
+.yui-navset .yui-navset-left .yui-nav,
+.yui-navset .yui-navset-right .yui-nav,
+.yui-navset-left .yui-nav,
+.yui-navset-right .yui-nav {
+    width: unset;
+}
+.yui-navset-top .yui-nav,
+.yui-navset-bottom .yui-nav {
+    width: unset;
+}
+.yui-navset .yui-navset-left,
+.yui-navset-left {
+    padding: unset;
+} 
+.yui-navset-right {
+    padding: unset;
+} 
+.yui-navset-top,
+.yui-navset-bottom {
+    padding: unset;
+}
+.yui-nav,
+.yui-nav li {
+    margin: unset;
+    padding: unset;
+    list-style: unset;
+}
+.yui-navset .yui-nav li em {
+    font-style: unset;
+}
+.yui-navset {
+    position: unset; 
+    zoom: unset;
+}
+.yui-navset .yui-content {
+    zoom: unset;
+}
+.yui-navset .yui-nav li,
+.yui-navset .yui-navset-top .yui-nav li,
+.yui-navset .yui-navset-bottom .yui-nav li {
+    display: unset;
+    display: unset;
+    *display: unset; 
+    vertical-align: unset; 
+    cursor: unset; 
+    zoom: unset; 
+}
+.yui-navset-left .yui-nav li,
+.yui-navset-right .yui-nav li {
+    display: unset;
+}
+.yui-navset .yui-nav a {
+    position: unset;
+} 
+.yui-navset .yui-nav li a,
+.yui-navset-top .yui-nav li a,
+.yui-navset-bottom .yui-nav li a {
+    display: unset;
+    display: unset;
+    vertical-align: unset; 
+    zoom: unset;
+}
+.yui-navset-left .yui-nav li a,
+.yui-navset-right .yui-nav li a {
+    display: unset;
+}
+.yui-navset-bottom .yui-nav li a {
+    vertical-align: unset; 
+}
+.yui-navset .yui-nav li a em,
+.yui-navset-top .yui-nav li a em,
+.yui-navset-bottom .yui-nav li a em {
+    display: unset;
+}
+.yui-navset .yui-navset-left .yui-nav,
+.yui-navset .yui-navset-right .yui-nav,
+.yui-navset-left .yui-nav,
+.yui-navset-right .yui-nav {
+    position: unset;
+    z-index: unset;
+}
+.yui-navset-top .yui-nav,
+.yui-navset-bottom .yui-nav {
+    position: unset;
+}
+.yui-navset .yui-navset-left .yui-nav,
+.yui-navset-left .yui-nav {
+    left: unset;
+    right: unset;
+}
+.yui-navset .yui-navset-right .yui-nav,
+.yui-navset-right .yui-nav {
+    right: unset;
+    left: unset;
+}
+.yui-navset .yui-nav,
+.yui-navset .yui-navset-top .yui-nav {
+    border: unset; 
+    border-width: unset;
+    zoom: unset;
+}
+.yui-navset .yui-nav li,
+.yui-navset .yui-navset-top .yui-nav li {
+    margin: unset; 
+    padding: unset; 
+    zoom: unset;
+}
+.yui-navset .yui-nav .selected,
+.yui-navset .yui-navset-top .yui-nav .selected {
+    margin: unset; 
+}
+.yui-navset .yui-nav a,
+.yui-navset .yui-navset-top .yui-nav a {
+    background: unset; 
+    border: unset;
+    border-width: unset;
+    color: unset;
+    position: unset;
+    text-decoration: unset;
+}
+.yui-navset .yui-nav a em,
+.yui-navset .yui-navset-top .yui-nav a em {
+    border: unset;
+    border-width: unset;
+    cursor: unset;
+    padding: unset;
+    left: unset;
+    right: unset;
+    bottom: unset; 
+    top: unset; 
+    position: unset;
+}
+.yui-navset .yui-nav .selected a,
+.yui-navset .yui-nav .selected a:focus,
+.yui-navset .yui-nav .selected a:hover {
+    background: unset; 
+    color: unset;
+}
+.yui-navset .yui-nav a:hover,
+.yui-navset .yui-nav a:focus {
+    background: unset; 
+    outline: unset;
+}
+.yui-navset .yui-nav .selected a em {
+    padding: unset; 
+}
+.yui-navset .yui-nav .selected a,
+.yui-navset .yui-nav .selected a em {
+    border-color: unset; 
+}
+.yui-navset .yui-content {
+    background: unset; 
+}
+.yui-navset .yui-content,
+.yui-navset .yui-navset-top .yui-content {
+    border: unset; 
+    border-top-color: unset; 
+    padding: unset; 
+}
+.yui-navset-left .yui-nav,
+.yui-navset .yui-navset-left .yui-nav,
+.yui-navset .yui-navset-right .yui-nav,
+.yui-navset-right .yui-nav {
+    border-width: unset;
+    top: unset;
+    bottom: unset; 
+}
+.yui-navset .yui-navset-right .yui-nav,
+.yui-navset-right .yui-nav {
+    border-width: unset;
+}
+.yui-navset-left .yui-nav li,
+.yui-navset .yui-navset-left .yui-nav li,
+.yui-navset-right .yui-nav li {
+    margin: unset; 
+    padding: unset; 
+}
+.yui-navset-right .yui-nav li {
+    padding: unset; 
+}
+.yui-navset-left .yui-nav .selected,
+.yui-navset .yui-navset-left .yui-nav .selected {
+    margin: unset;
+}
+.yui-navset-right .yui-nav .selected {
+    margin: unset;
+}
+.yui-navset-left .yui-nav a,
+.yui-navset-right .yui-nav a {
+    border-width: unset;
+}
+.yui-navset-left .yui-nav a em,
+.yui-navset .yui-navset-left .yui-nav a em,
+.yui-navset-right .yui-nav a em {
+    border-width: unset;
+    padding: unset;
+    top: unset;
+    left: unset; 
+}
+.yui-navset-right .yui-nav a em {
+    border-width: unset;
+    left: unset;
+    right: unset; 
+}
+.yui-navset-left .yui-nav a,
+.yui-navset-left .yui-nav .selected a,
+.yui-navset-left .yui-nav a:hover,
+.yui-navset-right .yui-nav a,
+.yui-navset-right .yui-nav .selected a,
+.yui-navset-right .yui-nav a:hover,
+.yui-navset-bottom .yui-nav a,
+.yui-navset-bottom .yui-nav .selected a,
+.yui-navset-bottom .yui-nav a:hover {
+    background-image: unset; 
+}
+.yui-navset-left .yui-content {
+    border: unset; 
+    border-left-color: unset; 
+}
+.yui-navset-bottom .yui-nav,
+.yui-navset .yui-navset-bottom .yui-nav {
+    border-width: unset; 
+}
+.yui-navset .yui-navset-bottom .yui-nav .selected,
+.yui-navset-bottom .yui-nav .selected {
+    margin: unset; 
+}
+.yui-navset .yui-navset-bottom .yui-nav li,
+.yui-navset-bottom .yui-nav li {
+    padding: unset; 
+    vertical-align: unset;
+}
+.yui-navset .yui-navset-bottom .yui-nav a em,
+.yui-navset-bottom .yui-nav a em {
+    border-width: unset;
+    top: unset;
+    bottom: unset; 
+}
+.yui-navset-bottom .yui-content,
+.yui-navset .yui-navset-bottom .yui-content {
+    border: unset; 
+    border-bottom-color: unset; 
+}
+.hl-default {
+    color: unset;
+}
+.hl-code {
+    color: unset;
+}
+.hl-brackets {
+    color: unset;
+}
+.hl-comment {
+    color: unset;
+}
+.hl-quotes {
+    color: unset;
+}
+.hl-string {
+    color: unset;
+}
+.hl-identifier {
+    color: unset;
+}
+.hl-builtin {
+    color: unset;
+}
+.hl-reserved {
+    color: unset;
+}
+.hl-inlinedoc {
+    color: unset;
+}
+.hl-var {
+    color: unset;
+}
+.hl-url {
+    color: unset;
+}
+.hl-special {
+    color: unset;
+    font-weight: unset;
+}
+.hl-number {
+    color: unset;
+}
+.hl-inlinetags {
+    color: unset;
+    font-weight: unset;
+}
+.hl-gutter {
+    background-color: unset;
+    color: unset;
+}
+.thread-container .post {
+    padding: unset;
+    width: unset; 
+}
+.thread-container .post .options a {
+    margin: unset;
+    padding: unset;
+    color: unset;
+}
+.thread-container .post .head {
+    padding: unset;
+    background-color: unset;
+}
+.thread-container .post .long .head .options {
+    float: unset;
+    margin: unset;
+    padding: unset;
+}
+.thread-container .post .long .head .title {
+    font-weight: unset;
+    font-size: unset;
+}
+.thread-container .post .long .changes {
+    font-size: unset;
+    color: unset;
+    text-align: unset;
+    margin-bottom: unset;
+}
+.thread-container .post .long .changes a {
+    color: unset;
+}
+.thread-container .post .long .revisions {
+    text-align: unset;
+    padding: unset;
+    font-size: unset;
+}
+.thread-container .post .long .revisions .title {
+    font-weight: unset;
+    font-size: unset;
+    padding-bottom: unset;
+}
+.thread-container .post .long .revisions table {
+    margin: unset;
+    font-size: unset;
+}
+.thread-container .post .long .revisions table tr.active td {
+    background-color: unset;
+}
+.thread-container .post .long .options {
+    text-align: unset;
+    margin: unset;
+    padding: unset;
+    height: unset;
+}
+.thread-container .post .short {
+    display: unset;
+    background-color: unset;
+    padding: unset;
+}
+.thread-container .post .short .options {
+    color: unset;
+    float: unset;
+    margin: unset;
+    padding: unset;
+}
+.thread-container .post .signature {
+    font-size: unset;
+}
+.thread-container .post .signature hr.signature-separator {
+    margin: unset;
+    padding: unset;
+    width: unset;
+}
+.thread-container .post.folded .long {
+    display: unset;
+}
+.thread-container .post.folded .short {
+    display: unset;
+}
+.post-container .post-container {
+    margin-left: unset;
+}
+.post-container.fordelete {
+    border: unset;
+    padding: unset;
+}
+div.new-post {
+    text-align: unset;
+    margin: unset;
+}
+div.new-post a {
+    border: unset;
+    background-color: unset;
+    padding: unset;
+    font-size: unset;
+    font-weight: unset;
+}
+div.page-rate-widget-box .rate-points{
+	background-color: unset;
+	color: unset;
+	font-weight: unset;
+	padding: unset;
+	border-radius: unset;
+}	
+div.page-rate-widget-box a{
+	text-decoration: unset;
+	color: unset;
+	background-color: unset;
+	padding: unset;
+}
+div.page-rate-widget-box a:hover{
+	background-color: unset;
+}
+div.page-rate-widget-box .cancel,
+div.page-rate-widget-box .cancel a{
+	border-radius: unset;
+}
