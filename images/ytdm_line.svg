@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.4 2.2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8c1900;
+      }
+    </style>
+  </defs>
+  <g id="_图层_1-2" data-name="图层 1">
+    <g>
+      <path class="cls-1" d="M4,1.5v.3h8.4v-.3H4ZM12.3,1.7H4.1v-.1h8.2v.1Z"/>
+      <path class="cls-1" d="M16.4,1V0h-.7v.7h-.1V.1h-.7v.5h.3v-.2h.1v.3h-.4v.4h-.1V.2h-.7v.5h-.1v-.4H2.4v.4h-.1V.2h-.7v.9h-.1v-.4h-.4v-.3h.1v.2h.3V.1h-.7v.6h-.1v-.7h-.7v1h.4v.6h-.1v-.5h-.3v.8h.7v-.9h.1v.4h.4v.3h-.1v-.2h-.3v.5h.7v-.6h.1v.7h.7v-1h-.4v-.6h.1v.5h.4v1.2h1.1v-.4h.4v-.4h8.6v.4h.4v.4h1.1v-1.2h.4v-.5h.1v.6h-.4v1h.7v-.7h.1v.6h.7v-.5h-.3v.2h-.1v-.3h.4v-.4h.1v.9h.7v-.8h-.3v.5h-.1v-.6h.4ZM.9.2h.5v.3h-.1v-.2h-.3v.4h-.1V.2ZM.6,1.8H.1v-.6h.1v.5h.3v-.7h.1v.8ZM.1.9V.1h.5v.6h-.1V.2H.2v.6h1.2v.3h-.1v-.2H.1ZM.4.3v.4h-.1v-.4h.1ZM1.2,1v.1h-.1v-.1h.1ZM1.4,1.9h-.5v-.3h.1v.2h.3v-.4h.1v.5ZM2.2,1.2v.8h-.5v-.6h.1v.5h.3v-.6H.9v-.3h.1v.2h1.2ZM1.9,1.8v-.4h.1v.4h-.1ZM2.4.9h-.3V.4h-.3v.7h-.1V.3h.5v.5h.2v.1ZM12.9,1.7h-.3v-.4H3.8v.4h-.3v-.1h.2v-.4h9v.4h.2v.1ZM12.9,1.5h-.1v-.4H3.6v.4h-.1v-.4h-.7v.7h.4v.1h-.5v-.9h11v.9h-.5v-.1h.4v-.7h-.7v.4ZM13.7.8v.1H2.7v-.1h11ZM2.7.7v-.1h11v.1H2.7ZM13.9,2.1h-.9v-.9h.5v.5h-.3v-.1h.2v-.3h-.3v.7h.7V.5H2.6v1.5h.7v-.7h-.3v.3h.2v.1h-.3v-.5h.5v.9h-.9V.4h11.4v1.7ZM13.2,1.5v-.1h.1v.1h-.1ZM3.2,1.5h-.1v-.1h.1v.1ZM15.1.3v.2h-.1V.2h.5v.5h-.1v-.4h-.3ZM14.3.4v.5h-.3v-.1h.2V.3h.5v.8h-.1V.4h-.3ZM15.4,1.8v-.2h.1v.3h-.5v-.5h.1v.4h.3ZM15.5,1.3h-1.2v.6h.3v-.5h.1v.6h-.5v-.8h1.2v-.2h.1v.3ZM14.5,1.4v.4h-.1v-.4h.1ZM15.2,1.1v-.1h.1v.1h-.1ZM16.2,1.7v-.5h.1v.6h-.5v-.8h.1v.7h.3ZM15.1.9v.2h-.1v-.3h1.2V.2h-.3v.5h-.1V.1h.5v.8h-1.2ZM16,.7v-.4h.1v.4h-.1Z"/>
+    </g>
+  </g>
+</svg>

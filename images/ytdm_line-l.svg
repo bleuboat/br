@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8c1900;
+      }
+    </style>
+  </defs>
+  <g id="_图层_1-2" data-name="图层 1">
+    <path class="cls-1" d="M0,10V0h7v7h1V1h7v5h-3v-2h-1v3h4v4h1V2h7v5h1v-4h15v1h-14v17h9v-9h-5v5h3v-1h-2v-3h3v7h-7V5h13v1h-12v1h12v1h-12v1h12v1h-12v9h5v-1h-4v-7h7v4h1v-4h3v1h-2v4h-2v1h3v-4h1v5h-4v4h-11v-12h-4v-5h-1v6h4v10h-7v-7h-1v6h-7v-5h3v2h1v-3h-4v-4h-1v9H0v-8h3v5h1v-6H0ZM32,14h-1v1h1v-1ZM13,3v2h1v-3h-5v5h1v-4h3ZM21,4v5h3v-1h-2V3h-5v8h1v-7h3ZM10,18v-2h-1v3h5v-5h-1v4h-3ZM9,13h12v6h-3v-5h-1v6h5v-8h-12v-2h-1v3ZM19,14v4h1v-4h-1ZM12,11v-1h-1v1h1ZM2,17v-5H1v6h5v-8h-1v7h-3ZM13,9v2h1v-3H2V2h3v5h1V1H1v8h12ZM4,7v-4h-1v4h1Z"/>
+  </g>
+</svg>
