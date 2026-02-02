@@ -1,13 +1,17 @@
 @charset "UTF-8";
 
-/* -------- 0. Imports -------- */
+/* -------------------- */
+/* 0. Imports --------- */
+/* -------------------- */
 @import "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap";
 @import "https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap";
 @import "https://fastly.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css";
 
-/* -------- 1. Root -------- */
+/* -------------------- */
+/* 1. Root ------------ */
+/* -------------------- */
 :root {
   --body-font: Inter, "Noto Sans SC", "Noto Sans TC", "Segoe UI", Roboto, "Helvetica Neue", "Liberation Sans", Arial, sans-serif;
   --header-font: var(--body-font);
@@ -15,7 +19,7 @@
   --ui-font: var(--body-font);
   --mono-font: "JetBrains Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Noto Sans SC", "Noto Sans TC", monospace;
 
-  --body-font-size: clamp(0.8rem, calc(0.75rem + 0.2vw), 1rem);
+  --body-font-size: clamp(0.825rem, calc(0.775rem + 0.195vw), 1.025rem);
   --body-line-height: 1.5;
 
   --header-height: 7rem;
@@ -267,7 +271,9 @@
   --swatch-text-secondary-color: var(--dark-text-color);
 }
 
-/* -------- 2. Global -------- */
+/* -------------------- */
+/* 2. Global ---------- */
+/* -------------------- */
 @keyframes base-fade-in {
   from {
     opacity: 0;
@@ -509,7 +515,9 @@ select {
   border-style: none;
 }
 
-/* -------- 3. Header -------- */
+/* -------------------- */
+/* 3. Header ---------- */
+/* -------------------- */
 #header {
   width: 100%;
   height: auto;
@@ -743,7 +751,9 @@ a#account-topbutton:is(:hover, :active, :focus) {
   color: rgb(var(--search-hover-text-color));
 }
 
-/* -------- 4. Sidebar -------- */
+/* -------------------- */
+/* 4. Sidebar --------- */
+/* -------------------- */
 #side-bar {
   position: fixed;
   top: 0;
@@ -870,7 +880,9 @@ a#account-topbutton:is(:hover, :active, :focus) {
   display: none;
 }
 
-/* -------- 5. Main -------- */
+/* -------------------- */
+/* 5. Main ------------ */
+/* -------------------- */
 #main-content {
   width: var(--content-width);
   max-width: calc(100vw - 2rem);
@@ -958,7 +970,9 @@ a#account-topbutton:is(:hover, :active, :focus) {
   gap: 0;
 }
 
-/* -------- 6. Footer -------- */
+/* -------------------- */
+/* 6. Footer ---------- */
+/* -------------------- */
 #footer {
   display: flex !important;
   flex-wrap: wrap;
@@ -994,7 +1008,9 @@ a#account-topbutton:is(:hover, :active, :focus) {
   color: rgb(var(--footer-link-color));
 }
 
-/* -------- 7. Content -------- */
+/* -------------------- */
+/* 7. Content --------- */
+/* -------------------- */
 .printuser {
   display: inline-flex;
   align-items: baseline;
@@ -1336,7 +1352,9 @@ div.creditButtonStandalone p a::before {
   line-height: 1;
 }
 
-/* -------- 8. Popups -------- */
+/* -------------------- */
+/* 8. Popups ---------- */
+/* -------------------- */
 .odialog-shader, .odialog-shader-iframe {
   display: none;
 }
@@ -1536,7 +1554,9 @@ div.creditBottomRate {
   display: none;
 }
 
-/* -------- 9. Action -------- */
+/* -------------------- */
+/* 9. Action ---------- */
+/* -------------------- */
 #action-area,
 #view-diff-div:not(:empty),
 .preview-message,
@@ -1944,7 +1964,9 @@ table.form td:first-child {
   display: contents;
 }
 
-/* -------- 10. Modules -------- */
+/* -------------------- */
+/* 10. Modules -------- */
+/* -------------------- */
 .join-box {
   text-align: center;
 }
@@ -1952,7 +1974,9 @@ table.form td:first-child {
   display: none;
 }
 
-/* -------- 11. Utilities -------- */
+/* -------------------- */
+/* 11. Utilities -------- */
+/* -------------------- */
 .block, .lightblock, .darkblock, .styled-quote, .dark-styled-quote {
   display: flow-root;
   margin: 1rem 0;
@@ -2422,7 +2446,9 @@ table.form td:first-child {
   display: none;
 }
 
-/* -------- 12. Mobile -------- */
+/* -------------------- */
+/* 12. Mobile --------- */
+/* -------------------- */
 @media only screen and (max-width: 48rem) {
   :root {
     --header-height: var(--header-height-on-mobile);
