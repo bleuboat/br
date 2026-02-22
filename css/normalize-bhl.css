@@ -1,0 +1,2770 @@
+:where(html) {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  line-height: 1.15;
+}
+:where(body) {
+  margin: 0;
+}
+:where(main) {
+  display: block;
+}
+:where(h1, h2, h3, h4, h5, h6) {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+}
+:where(ul, ol) {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+:where(dt) {
+  font-weight: bold;
+}
+:where(dd) {
+  margin-left: 0;
+}
+:where(hr) {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  clear: both;
+  color: inherit;
+  border-top-width: 1px;
+  height: 0;
+  margin: 0;
+  overflow: visible;
+}
+:where(pre) {
+  font-family: monospace;
+  font-size: inherit;
+}
+:where(address) {
+  font-style: inherit;
+}
+:where(a) {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+}
+:where(abbr[title]) {
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+:where(b, strong) {
+  font-weight: bolder;
+}
+:where(code, kbd, samp) {
+  font-family: monospace;
+  font-size: inherit;
+}
+:where(small) {
+  font-size: 80%;
+}
+:where(sub, sup) {
+  vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+:where(sub) {
+  bottom: -.25em;
+}
+:where(sup) {
+  top: -.5em;
+}
+:where(svg, img, embed, object, iframe) {
+  vertical-align: bottom;
+}
+:where(button, input, optgroup, select, textarea) {
+  -webkit-appearance: none;
+  appearance: none;
+  color: inherit;
+  font: inherit;
+  text-align: inherit;
+  text-transform: inherit;
+  vertical-align: middle;
+  background: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+}
+:where(button, [type="button"], [type="reset"], [type="submit"]) {
+  cursor: pointer;
+}
+:where(button:disabled, [type="button"]:disabled, [type="reset"]:disabled, [type="submit"]:disabled) {
+  cursor: default;
+}
+:where(:-moz-focusring) {
+  outline: auto;
+}
+:where(select:disabled) {
+  opacity: inherit;
+}
+:where(option) {
+  padding: 0;
+}
+:where(fieldset) {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+:where(legend) {
+  padding: 0;
+}
+:where(progress) {
+  vertical-align: baseline;
+}
+textarea {
+  overflow: auto;
+}
+:where([type="search"]) {
+  outline-offset: -2px;
+}
+:where([type="number"]) {
+  -moz-appearance: textfield;
+}
+:where(label[for]) {
+  cursor: pointer;
+}
+:where(details) {
+  display: block;
+}
+:where(summary) {
+  display: list-item;
+}
+:where([contenteditable]:focus) {
+  outline: auto;
+}
+:where(table) {
+  border-collapse: collapse;
+  border-color: inherit;
+}
+:where(caption) {
+  text-align: left;
+}
+:where(td, th) {
+  vertical-align: top;
+  padding: 0;
+}
+:where(th) {
+  text-align: left;
+  font-weight: bold;
+}
+body {
+  margin: unset;
+  padding: unset;
+}
+body {
+  font-family: unset;
+  font-size: unset;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: unset;
+}
+h1 {
+  font-size: unset;
+  font-weight: unset;
+}
+h2 {
+  font-weight: unset;
+  font-size: unset;
+}
+h3 {
+  font-weight: unset;
+  font-size: unset;
+}
+h4 {
+  font-weight: unset;
+  font-size: unset;
+}
+h5 {
+  font-weight: unset;
+  font-size: unset;
+}
+h6 {
+  font-weight: unset;
+  font-size: unset;
+}
+img {
+  border-width: unset;
+}
+blockquote {
+  border: unset;
+  padding: unset;
+  background-color: unset;
+}
+table {
+  empty-cells: unset;
+}
+td {
+  text-align: unset;
+}
+a {
+  color: unset;
+}
+a:hover {
+  background-color: unset;
+}
+h1 a {
+  text-decoration: unset;
+}
+body.wait,
+body.wait * {
+  cursor: unset;
+}
+form {
+  margin: unset;
+  padding: unset;
+}
+a.newpage {
+  color: unset;
+}
+#container-wrap-wrap {
+  position: unset;
+}
+#container {
+  margin: unset;
+  padding: unset;
+}
+#header {
+  position: unset;
+  z-index: unset;
+  height: unset;
+}
+#header h1 {
+  margin: unset;
+  padding: unset;
+}
+#header h2 {
+  margin: unset;
+  padding: unset;
+}
+#content-wrap {
+  padding: unset;
+  margin: unset;
+}
+#content-wrap {
+  min-height: unset;
+}
+#side-bar {
+  float: unset;
+  width: unset;
+  padding: unset;
+  margin: unset;
+  clear: unset;
+}
+#side-bar ul {
+  padding: unset;
+  margin: unset;
+}
+#page-title {
+  margin: unset;
+  padding-top: unset; 
+  font-size: unset;
+  border-bottom: unset;
+}
+#breadcrumbs {
+  margin-top: unset;
+}
+#main-content {
+  margin-left: unset;
+  padding: unset;
+}
+#page-info-break {
+  clear: unset;
+  height: unset;
+  font-size: unset;
+}
+#page-info {
+  clear: unset;
+  text-align: unset;
+  font-size: unset;
+  margin: unset;
+}
+.page-tags {
+  clear: unset;
+  text-align: unset;
+  margin: unset;
+  padding: unset;
+}
+.page-tags a {
+  margin: unset;
+}
+.page-tags span {
+  padding-top: unset;
+  border-top: unset;
+  font-size: unset;
+}
+#footer {
+  margin-top: unset;
+  padding: unset;
+  clear: unset;
+  overflow: unset;
+}
+#footer .options {
+  float: unset;
+  font-size: unset;
+  padding: unset;
+}
+#footer p {
+  margin: unset;
+  padding: unset;
+}
+#license-area {
+  padding: unset;
+  color: unset;
+  text-align: unset;
+}
+#search-top-box {
+  position: unset;
+  right: unset;
+  top: unset;
+  z-index: unset;
+}
+#search-top-box input.empty {
+  color: unset;
+}
+#login-status {
+  position: unset;
+  right: unset;
+  top: unset;
+  overflow: unset;
+  z-index: unset;
+}
+#login-status > a > strong {
+  text-decoration: unset;
+  -webkit-animation-name: unset;
+  -webkit-animation-iteration-count: unset;
+  -webkit-animation-timing-function: unset;
+  -webkit-animation-duration: unset;
+}
+#account-options {
+  position: unset;
+  box-sizing: unset;
+  -moz-box-sizing: unset;
+  width: unset;
+  right: unset;
+  padding: unset;
+  z-index: unset;
+  background-color: unset;
+  display: unset;
+  border: unset;
+}
+#account-options ul {
+  display: unset;
+  margin: unset;
+  padding: unset;
+  list-style: unset;
+}
+#account-options li {
+  display: unset;
+  margin: unset;
+  padding: unset;
+}
+#account-options li a {
+  display: unset;
+  box-sizing: unset;
+  -moz-box-sizing: unset;
+  padding: unset;
+  z-index: unset;
+}
+#account-options li a:hover {
+  color: unset;
+}
+#account-topbutton {
+  font-size: unset;
+  font-weight: unset;
+  padding: unset;
+  border: unset;
+  margin-left: unset;
+  text-decoration: unset;
+  background-color: unset;
+}
+#top-bar {
+  position: unset;
+  right: unset;
+  bottom: unset;
+  z-index: unset;
+}
+#top-bar ul {
+  display: unset;
+  margin: unset;
+  padding: unset;
+  list-style: unset;
+}
+#top-bar li {
+  list-style: unset;
+  float: unset;
+  margin: unset;
+  padding: unset;
+}
+#top-bar li ul {
+  padding: unset;
+  margin: unset;
+  width: unset;
+  border: unset;
+}
+#top-bar li ul li {
+  padding: unset;
+  margin: unset;
+  display: unset;
+  float: unset;
+}
+#top-bar li a {
+  text-align: unset;
+  display: unset;
+  margin: unset;
+  padding: unset;
+  text-decoration: unset;
+}
+#top-bar a:hover {
+  background-color: unset;
+  text-decoration: unset;
+}
+#top-bar li ul li a {
+  width: unset;
+  text-align: unset;
+  background-color: unset;
+  border: unset;
+}
+#top-bar li ul {
+  position: unset;
+  visibility: unset;
+}
+#top-bar li:hover ul,
+#top-bar li.sfhover ul {
+  visibility: unset;
+}
+.edit-section-button {
+  margin-top: unset;
+  margin-right: unset;
+  padding: unset;
+  float: unset;
+  background-color: unset;
+}
+#edit-section-content {
+  border: unset;
+  padding: unset;
+}
+.page-options-bottom {
+  margin: unset;
+  text-align: unset;
+  height: unset; 
+  line-height: unset;
+}
+.page-options-bottom a {
+  margin: unset;
+  font-size: unset;
+  padding: unset;
+}
+.page-watch-options {
+  font-size: unset;
+  text-align: unset;
+}
+.page-watch-options a {
+  text-decoration: unset;
+}
+.page-watch-options a:hover {
+  text-decoration: unset;
+}
+.change-textarea-size {
+  float: unset;
+  text-align: unset;
+  padding-right: unset;
+  padding-left: unset;
+}
+.change-textarea-size a {
+  color: unset;
+  background-color: unset;
+  border: unset;
+  border-width: unset;
+  padding: unset;
+  font-size: unset;
+  text-decoration: unset;
+}
+.edit-help-34 {
+  margin-top: unset;
+}
+.preview-message {
+  position: unset;
+  right: unset;
+  border: unset;
+  padding: unset;
+  background-color: unset;
+  max-width: unset;
+  opacity: unset;
+  filter: unset;
+  z-index: unset;
+}
+#page-version-info {
+  position: unset;
+  right: unset;
+  border: unset;
+  padding: unset;
+  background-color: unset;
+  max-width: unset;
+  opacity: unset;
+  filter: unset;
+}
+#lock-info {
+  background-color: unset;
+  border: unset;
+  padding: unset;
+  margin: unset;
+}
+#action-area {
+  width: unset;
+  padding: unset;
+}
+a.action-area-close {
+  float: unset;
+  margin: unset;
+  font-size: unset;
+  padding: unset;
+}
+a.action-area-close:hover {
+  background-color: unset;
+}
+.odate {
+  display: unset;
+}
+.wiki-email {
+  visibility: unset;
+}
+table.wiki-content-table {
+  border-collapse: unset;
+  border-spacing: unset;
+  margin: unset;
+}
+table.wiki-content-table td {
+  border: unset;
+  padding: unset;
+}
+table.wiki-content-table th {
+  border: unset;
+  padding: unset;
+  background-color: unset;
+}
+#toc {
+  margin: unset;
+  padding: unset;
+  border: unset;
+  background-color: unset;
+  display: unset;
+}
+#toc .title {
+  font-weight: unset;
+  margin: unset;
+  padding: unset;
+  text-align: unset;
+}
+#toc #toc-action-bar {
+  padding: unset;
+}
+#toc-list {
+  margin: unset;
+}
+#toc.floatright {
+  float: unset;
+  margin: unset;
+}
+#toc.floatleft {
+  float: unset;
+  margin: unset;
+}
+tt {
+  font-family: unset;
+  font-size: unset;
+}
+pre {
+  font-family: unset;
+}
+.code {
+  border: unset;
+  background-color: unset;
+  font-family: unset;
+  padding: unset;
+  margin: unset;
+  overflow: unset;
+}
+code {
+  font-family: unset;
+}
+.math-equation {
+  text-align: unset;
+  padding: unset;
+  height: unset; 
+  display: unset;
+}
+.equation-number {
+  float: unset;
+  margin-top: unset;
+  font-size: unset;
+}
+.math-inline {
+  display: unset;
+}
+#MathJax_Message {
+  display: unset;
+}
+.math-inline span.merror {
+  color: unset;
+}
+a.inline-math-error {
+  padding: unset;
+  font-weight: unset;
+}
+a.math-equation-error {
+  padding: unset;
+  font-weight: unset;
+}
+div.wiki-note {
+  width: unset;
+  margin: unset;
+  border: unset;
+  text-align: unset;
+}
+.footnote .f-heading,
+.equation .e-heading,
+.reference .r-heading {
+  font-weight: unset;
+}
+.footnote .f-content,
+.reference .r-content {
+  margin: unset;
+}
+.footnote .f-footer,
+.equation .e-footer,
+.reference .r-footer {
+  font-size: unset;
+}
+.footnotes-footer {
+  margin: unset;
+  padding: unset;
+  height: unset;
+}
+.footnotes-footer .title {
+  margin: unset;
+  font-size: unset;
+  font-weight: unset;
+}
+a.footnoteref {
+  display: unset;
+}
+.bibitems {
+  margin: unset;
+  padding: unset;
+}
+.bibitems .title {
+  margin: unset;
+  font-size: unset;
+  font-weight: unset;
+}
+.bibitem {
+  height: unset; 
+}
+a.bibcite {
+  display: unset;
+}
+.image-container {
+  padding: unset;
+}
+.image-container.aligncenter {
+  text-align: unset;
+}
+.image-container.alignright {
+  padding-right: unset;
+  text-align: unset;
+}
+.image-container.alignleft {
+  padding-left: unset;
+  text-align: unset;
+}
+.image-container.floatright {
+  padding-right: unset;
+  float: unset;
+}
+.image-container.floatleft {
+  padding-left: unset;
+  float: unset;
+}
+.gallery-box {
+  overflow: unset;
+  width: unset;
+}
+.gallery-item {
+  float: unset;
+  margin: unset;
+  border: unset;
+}
+.gallery-item table {
+  width: unset;
+  height: unset;
+}
+.gallery-item td {
+  text-align: unset;
+}
+.gallery-item.square {
+  width: unset;
+  height: unset;
+}
+.gallery-item.thumbnail {
+  width: unset;
+  height: unset;
+}
+.gallery-item.small {
+  width: unset;
+  height: unset;
+}
+.gallery-item.medium {
+  width: unset;
+  height: unset;
+}
+.gallery-box .gallery-item table,
+.gallery-box .gallery-item .td {
+  margin: unset;
+  padding: unset;
+  border-collapse: unset;
+  border-spacing: unset;
+}
+.new-page-box {
+  text-align: unset;
+  margin: unset;
+}
+#revision-list .pager {
+  margin: unset;
+  text-align: unset;
+}
+table.page-history td.optionstd a {
+  border: unset;
+  padding: unset;
+  text-decoration: unset;
+}
+.diff-table {
+  width: unset;
+}
+.diff-table td.from,
+.diff-table td.to {
+  width: unset;
+  border: unset;
+  vertical-align: unset;
+  padding: unset;
+}
+.diff-table td.action {
+  padding: unset;
+  width: unset;
+  vertical-align: unset;
+  text-align: unset;
+  font-weight: unset;
+}
+.inline-diff ins {
+  background-color: unset;
+  white-space: unset;
+}
+.inline-diff del {
+  background-color: unset;
+  white-space: unset;
+}
+table.page-compare {
+  border-collapse: unset;
+  border-spacing: unset;
+  margin: unset;
+}
+table.page-compare td,
+table.page-compare th {
+  padding: unset;
+  border: unset;
+}
+.page-source {
+  border: unset;
+  padding: unset;
+  
+}
+.page-source pre {
+  white-space: unset;
+}
+.wiki-parse-error {
+  color: unset;
+  padding: unset;
+}
+.spantip {
+  cursor: unset;
+  text-decoration: unset;
+}
+.pager {
+  margin: unset;
+  text-align: unset;
+}
+.pager-no {
+  padding: unset;
+}
+.pager .dots {
+  padding: unset;
+  margin: unset;
+}
+.pager a {
+  padding: unset;
+  margin: unset;
+  border: unset;
+  text-decoration: unset;
+}
+.pager .current {
+  padding: unset;
+  margin: unset;
+  font-weight: unset;
+  background-color: unset;
+  color: unset;
+  border: unset;
+}
+table.page-files {
+  margin: unset;
+  border-collapse: unset;
+  border-spacing: unset;
+}
+table.page-files td {
+  padding: unset;
+}
+table.page-files .highlight {
+  background-color: unset;
+}
+table.page-files .options {
+  text-align: unset;
+}
+.printuser a {
+  margin-right: unset;
+}
+.printuser img.small {
+  vertical-align: unset;
+  margin: unset;
+  width: unset;
+  height: unset;
+  z-index: unset;
+  padding: unset;
+  background-repeat: unset;
+  background-position: unset;
+}
+.printuser.anonymous img.small {
+  padding: unset;
+}
+a.avatar-hover,
+a.avatar-hover:hover {
+  background: unset;
+  background-image: unset;
+  padding: unset;
+  text-decoration: unset;
+  font-size: unset;
+  color: unset;
+  font-weight: unset;
+}
+a.avatar-hover img {
+  vertical-align: unset;
+}
+a.avatar-hover div {
+  position: unset;
+}
+a.avatar-hover div div {
+  position: unset;
+  left: unset;
+  top: unset;
+  height: unset;
+  right: unset;
+  width: unset;
+  background-color: unset;
+  opacity: unset;
+  filter: unset;
+}
+a.avatar-hover div span {
+  padding: unset;
+  margin: unset;
+  background-color: unset;
+  opacity: unset;
+  filter: unset;
+  z-index: unset;
+}
+.printuser a:hover img.large {
+  display: unset;
+}
+.printuser .ip {
+  font-size: unset;
+}
+.wait-block {
+  padding-left: unset;
+  background-repeat: unset;
+  background-image: unset;
+}
+.error-inline {
+  color: unset;
+  border: unset;
+}
+.error-block {
+  color: unset;
+  padding: unset;
+  margin: unset;
+  border: unset;
+}
+.error-block .title {
+  font-size: unset;
+  font-weight: unset;
+  margin-bottom: unset;
+}
+.warning-block {
+  color: unset;
+  padding: unset;
+  margin: unset;
+  border: unset;
+}
+.warning-block .title {
+  font-size: unset;
+  font-weight: unset;
+  margin-bottom: unset;
+}
+.help-block {
+  border: unset;
+  color: unset;
+  padding: unset;
+  margin: unset;
+}
+.wait-icon {
+  height: unset;
+  background-repeat: unset;
+  background-position: unset;
+  background-image: unset;
+}
+.wait-progress {
+  height: unset;
+  background-repeat: unset;
+  background-position: unset;
+  background-image: unset;
+}
+table.form {
+  margin: unset;
+}
+table.form.alignleft {
+  margin: unset;
+}
+table.form td,
+table.form th {
+  vertical-align: unset;
+  padding: unset;
+}
+table.form > tr > td:first-child {
+  text-align: unset;
+}
+table.form.grid {
+  border-collapse: unset;
+  border-spacing: unset;
+}
+table.form.grid td,
+table.form.grid th {
+  border: unset;
+  padding: unset;
+}
+table.form td div.sub,
+form div.sub {
+  font-size: unset;
+  color: unset;
+}
+table.form tr.invalid-value-row td {
+  background-color: unset;
+}
+table.form div.field-error-message {
+  display: unset;
+  color: unset;
+}
+table.form tr.invalid-value-row div.field-error-message {
+  display: unset;
+  color: unset;
+}
+table.form tr.invalid-value-row td div.field-error-message {
+  display: unset;
+}
+hr {
+  margin: unset;
+  padding: unset;
+  height: unset;
+  border: unset;
+  color: unset;
+  background-color: unset;
+}
+* html hr {
+  margin: unset;
+}
+input {
+  font-size: unset; 
+}
+div.buttons {
+  text-align: unset;
+  padding: unset;
+}
+div.buttons.alignleft {
+  text-align: unset;
+}
+div.buttons input,
+input.button,
+button,
+file,
+a.button {
+  margin: unset;
+  padding: unset;
+  text-decoration: unset;
+  background-color: unset;
+  border: unset;
+  color: unset;
+}
+div.buttons input:hover,
+input.button:hover,
+button:hover,
+a.button:hover {
+  background-color: unset;
+  color: unset;
+}
+input.button.disabled,
+div.buttons input.disabled {
+  background-color: unset;
+  color: unset;
+}
+input.button.disabled:hover,
+div.buttons input.disabled:hover {
+  background-color: unset;
+  color: unset;
+}
+input.checkbox {
+  background-color: unset;
+  color: unset;
+}
+input.text {
+  border: unset;
+  margin: unset;
+  padding: unset;
+  background-color: unset;
+  color: unset;
+}
+input.text.invalid {
+  border-color: unset;
+}
+textarea {
+  font-family: unset;
+  padding: unset;
+  font-size: unset;
+  border: unset;
+  background-color: unset;
+  color: unset;
+}
+div.note {
+  font-size: unset;
+  margin: unset;
+  padding: unset;
+  border: unset;
+  background-color: unset;
+}
+div.note-block {
+  padding: unset;
+  margin: unset;
+  border: unset;
+}
+div.site-list-item {
+  margin: unset;
+  padding: unset;
+}
+div.site-list-item:hover {
+  background-color: unset;
+}
+div.site-list-item .name {
+  font-size: unset;
+  font-weight: unset;
+}
+div.site-list-item .description {
+  font-style: unset;
+  padding-left: unset;
+}
+div.site-list-item .options {
+  float: unset;
+  margin-right: unset;
+}
+.search-highlight {
+  background-color: unset;
+}
+.self-ads {
+  width: unset;
+  margin: unset;
+  padding: unset;
+  border: unset;
+}
+.self-ads .title {
+  font-size: unset;
+  padding-bottom: unset;
+}
+.self-ads .image {
+  float: unset;
+  padding-left: unset;
+}
+div.wd-adunit {
+  text-align: unset;
+  margin: unset;
+}
+div.wd-adunit-side_slide {
+  position: unset;
+  right: unset;
+  width: unset;
+  z-index: unset;
+}
+div.wd-adunit-mobile_anchor {
+  position: unset;
+  left: unset;
+  width: unset;
+  height: unset;
+  bottom: unset;
+  z-index: unset;
+  transform-origin: unset;
+  margin: unset;
+  padding: unset;
+  background-color: unset;
+}
+div.bsa_linkbox {
+  margin: unset;
+}
+iframe[id^=revmob-ad-] {
+  position: unset;
+  max-width: unset;
+  min-width: unset;
+}
+#house-ad-1 {
+  font-family: unset;
+  background: unset;
+  color: unset;
+  text-align: unset;
+  border: unset;
+  padding: unset;
+  border-radius: unset;
+}
+#house-ad-1 .close {
+  float: unset;
+  font-size: unset;
+  padding: unset;
+  display: unset;
+  color: unset;
+  background: unset;
+  border-radius: unset;
+  text-decoration: unset;
+}
+#house-ad-1 .close:hover {
+  text-decoration: unset;
+  background: unset;
+}
+#house-ad-1 p {
+  font-size: unset;
+  padding: unset;
+  margin: unset;
+  font-weight: unset;
+}
+#house-ad-1 .button-wrap {
+  padding: unset;
+}
+#house-ad-1 .button-wrap a {
+  font-size: unset;
+  color: unset;
+  background-color: unset;
+  border-color: unset;
+  border-radius: unset;
+  padding: unset;
+  text-decoration: unset;
+}
+#house-ad-1 .button-wrap a:hover {
+  color: unset;
+  background-color: unset;
+  border-color: unset;
+  text-decoration: unset;
+}
+.hubzo-ad {
+  text-align: unset;
+  font-size: unset;
+  line-height: unset;
+}
+.hubzo-ad .link a {
+  font-size: unset;
+  color: unset;
+}
+.hubzo-ad .network {
+  font-size: unset;
+  opacity: unset;
+}
+.ext-au {
+  overflow: unset;
+  max-width: unset;
+  text-align: unset;
+  margin: unset;
+  cursor: unset;
+}
+.ext-au img.image {
+  height: unset;
+  float: unset;
+}
+.ext-au .title {
+  margin-left: unset;
+  font-weight: unset;
+  font-size: unset;
+}
+.ext-au .description {
+  margin-left: unset;
+  padding: unset;
+  opacity: unset;
+}
+.ext-au .link {
+  margin-left: unset;
+}
+.rss-icon {
+  vertical-align: unset;
+}
+#side-bar div.foldable-list-container ul li ul li {
+  font-size: unset;
+}
+#login-iframe {
+  height: unset;
+}
+.yui-navset .yui-nav li,
+.yui-navset .yui-navset-top .yui-nav li,
+.yui-navset .yui-navset-bottom .yui-nav li {
+  margin: unset; 
+}
+.yui-navset-left .yui-nav li,
+.yui-navset-right .yui-nav li {
+  margin: unset; 
+}
+.yui-navset .yui-navset-left .yui-nav,
+.yui-navset .yui-navset-right .yui-nav,
+.yui-navset-left .yui-nav,
+.yui-navset-right .yui-nav {
+  width: unset;
+}
+.yui-navset-top .yui-nav,
+.yui-navset-bottom .yui-nav {
+  width: unset;
+}
+.yui-navset .yui-navset-left,
+.yui-navset-left {
+  padding: unset;
+} 
+.yui-navset-right {
+  padding: unset;
+} 
+.yui-navset-top,
+.yui-navset-bottom {
+  padding: unset;
+}
+.yui-nav,
+.yui-nav li {
+  margin: unset;
+  padding: unset;
+  list-style: unset;
+}
+.yui-navset .yui-nav li em {
+  font-style: unset;
+}
+.yui-navset {
+  position: unset;
+  zoom: unset;
+}
+.yui-navset .yui-content {
+  zoom: unset;
+}
+.yui-navset .yui-nav li,
+.yui-navset .yui-navset-top .yui-nav li,
+.yui-navset .yui-navset-bottom .yui-nav li {
+  display: unset;
+  display: unset;
+  vertical-align: unset; 
+  cursor: unset; 
+  zoom: unset; 
+}
+.yui-navset-left .yui-nav li,
+.yui-navset-right .yui-nav li {
+  display: unset;
+}
+.yui-navset .yui-nav a {
+  position: unset;
+} 
+.yui-navset .yui-nav li a,
+.yui-navset-top .yui-nav li a,
+.yui-navset-bottom .yui-nav li a {
+  display: unset;
+  display: unset;
+  vertical-align: unset; 
+  zoom: unset;
+}
+.yui-navset-left .yui-nav li a,
+.yui-navset-right .yui-nav li a {
+  display: unset;
+}
+.yui-navset-bottom .yui-nav li a {
+  vertical-align: unset; 
+}
+.yui-navset .yui-nav li a em,
+.yui-navset-top .yui-nav li a em,
+.yui-navset-bottom .yui-nav li a em {
+  display: unset;
+}
+.yui-navset .yui-navset-left .yui-nav,
+.yui-navset .yui-navset-right .yui-nav,
+.yui-navset-left .yui-nav,
+.yui-navset-right .yui-nav {
+  position: unset;
+  z-index: unset;
+}
+.yui-navset-top .yui-nav,
+.yui-navset-bottom .yui-nav {
+  position: unset;
+}
+.yui-navset .yui-navset-left .yui-nav,
+.yui-navset-left .yui-nav {
+  left: unset;
+  right: unset;
+}
+.yui-navset .yui-navset-right .yui-nav,
+.yui-navset-right .yui-nav {
+  right: unset;
+  left: unset;
+}
+.yui-navset .yui-nav,
+.yui-navset .yui-navset-top .yui-nav {
+  border: unset; 
+  border-width: unset;
+  zoom: unset;
+}
+.yui-navset .yui-nav li,
+.yui-navset .yui-navset-top .yui-nav li {
+  margin: unset; 
+  padding: unset; 
+  zoom: unset;
+}
+.yui-navset .yui-nav .selected,
+.yui-navset .yui-navset-top .yui-nav .selected {
+  margin: unset; 
+}
+.yui-navset .yui-nav a,
+.yui-navset .yui-navset-top .yui-nav a {
+  background: unset; 
+  border: unset;
+  border-width: unset;
+  color: unset;
+  position: unset;
+  text-decoration: unset;
+}
+.yui-navset .yui-nav a em,
+.yui-navset .yui-navset-top .yui-nav a em {
+  border: unset;
+  border-width: unset;
+  cursor: unset;
+  padding: unset;
+  left: unset;
+  right: unset;
+  bottom: unset; 
+  top: unset; 
+  position: unset;
+}
+.yui-navset .yui-nav .selected a,
+.yui-navset .yui-nav .selected a:focus,
+.yui-navset .yui-nav .selected a:hover {
+  background: unset; 
+  color: unset;
+}
+.yui-navset .yui-nav a:hover,
+.yui-navset .yui-nav a:focus {
+  background: unset; 
+  outline: unset;
+}
+.yui-navset .yui-nav .selected a em {
+  padding: unset; 
+}
+.yui-navset .yui-nav .selected a,
+.yui-navset .yui-nav .selected a em {
+  border-color: unset; 
+}
+.yui-navset .yui-content {
+  background: unset; 
+}
+.yui-navset .yui-content,
+.yui-navset .yui-navset-top .yui-content {
+  border: unset; 
+  border-top-color: unset; 
+  padding: unset; 
+}
+.yui-navset-left .yui-nav,
+.yui-navset .yui-navset-left .yui-nav,
+.yui-navset .yui-navset-right .yui-nav,
+.yui-navset-right .yui-nav {
+  border-width: unset;
+  top: unset;
+  bottom: unset; 
+}
+.yui-navset .yui-navset-right .yui-nav,
+.yui-navset-right .yui-nav {
+  border-width: unset;
+}
+.yui-navset-left .yui-nav li,
+.yui-navset .yui-navset-left .yui-nav li,
+.yui-navset-right .yui-nav li {
+  margin: unset; 
+  padding: unset; 
+}
+.yui-navset-right .yui-nav li {
+  padding: unset; 
+}
+.yui-navset-left .yui-nav .selected,
+.yui-navset .yui-navset-left .yui-nav .selected {
+  margin: unset;
+}
+.yui-navset-right .yui-nav .selected {
+  margin: unset;
+}
+.yui-navset-left .yui-nav a,
+.yui-navset-right .yui-nav a {
+  border-width: unset;
+}
+.yui-navset-left .yui-nav a em,
+.yui-navset .yui-navset-left .yui-nav a em,
+.yui-navset-right .yui-nav a em {
+  border-width: unset;
+  padding: unset;
+  top: unset;
+  left: unset; 
+}
+.yui-navset-right .yui-nav a em {
+  border-width: unset;
+  left: unset;
+  right: unset; 
+}
+.yui-navset-left .yui-nav a,
+.yui-navset-left .yui-nav .selected a,
+.yui-navset-left .yui-nav a:hover,
+.yui-navset-right .yui-nav a,
+.yui-navset-right .yui-nav .selected a,
+.yui-navset-right .yui-nav a:hover,
+.yui-navset-bottom .yui-nav a,
+.yui-navset-bottom .yui-nav .selected a,
+.yui-navset-bottom .yui-nav a:hover {
+  background-image: unset; 
+}
+.yui-navset-left .yui-content {
+  border: unset; 
+  border-left-color: unset; 
+}
+.yui-navset-bottom .yui-nav,
+.yui-navset .yui-navset-bottom .yui-nav {
+  border-width: unset; 
+}
+.yui-navset .yui-navset-bottom .yui-nav .selected,
+.yui-navset-bottom .yui-nav .selected {
+  margin: unset; 
+}
+.yui-navset .yui-navset-bottom .yui-nav li,
+.yui-navset-bottom .yui-nav li {
+  padding: unset; 
+  vertical-align: unset;
+}
+.yui-navset .yui-navset-bottom .yui-nav a em,
+.yui-navset-bottom .yui-nav a em {
+  border-width: unset;
+  top: unset;
+  bottom: unset; 
+}
+.yui-navset-bottom .yui-content,
+.yui-navset .yui-navset-bottom .yui-content {
+  border: unset; 
+  border-bottom-color: unset; 
+}
+.hl-default {
+  color: unset;
+}
+.hl-code {
+  color: unset;
+}
+.hl-brackets {
+  color: unset;
+}
+.hl-comment {
+  color: unset;
+}
+.hl-quotes {
+  color: unset;
+}
+.hl-string {
+  color: unset;
+}
+.hl-identifier {
+  color: unset;
+}
+.hl-builtin {
+  color: unset;
+}
+.hl-reserved {
+  color: unset;
+}
+.hl-inlinedoc {
+  color: unset;
+}
+.hl-var {
+  color: unset;
+}
+.hl-url {
+  color: unset;
+}
+.hl-special {
+  color: unset;
+  font-weight: unset;
+}
+.hl-number {
+  color: unset;
+}
+.hl-inlinetags {
+  color: unset;
+  font-weight: unset;
+}
+.hl-gutter {
+  background-color: unset;
+  color: unset;
+}
+.autocomplete-container {
+  position: unset;
+  width: unset;
+  margin: unset;
+}
+.autocomplete-input {
+  position: unset;
+  width: unset;
+  display: unset;
+}
+.autocomplete-list {
+  text-align: unset;
+  padding: unset;
+  position: unset;
+  left: unset;
+  width: unset;
+  overflow: unset;
+  z-index: unset;
+}
+.yui-ac-content {
+  border: unset;
+  background: unset;
+}
+.autocomplete-list ul {
+  margin: unset;
+  width: unset;
+  padding: unset;
+  list-style: unset;
+}
+.autocomplete-list li {
+  padding: unset;
+  cursor: unset;
+  white-space: unset;
+}
+.autocomplete-list li.yui-ac-highlight {
+  background-color: unset;
+}
+.forum-breadcrumbs {
+  margin-top: unset;
+}
+.forum-group {
+  margin: unset;
+}
+.forum-group div.head {
+  background-color: unset;
+  color: unset;
+  padding: unset;
+  margin: unset;
+  border: unset;
+}
+.forum-group div.head .title {
+  font-weight: unset;
+}
+.forum-group table {
+  width: unset;
+  border-collapse: unset;
+  border-spacing: unset;
+}
+.forum-group table td {
+  border: unset;
+  padding: unset;
+}
+.forum-group table td.name .description {
+  color: unset;
+  font-size: unset;
+}
+.forum-group table td.name .title {
+  font-weight: unset;
+}
+.forum-group table td.last {
+  width: unset;
+  font-size: unset;
+  text-align: unset;
+}
+.forum-group table td.posts {
+  width: unset;
+  text-align: unset;
+}
+.forum-group table td.threads {
+  width: unset;
+  text-align: unset;
+}
+.forum-group table tr.head td {
+  text-align: unset;
+  font-size: unset;
+  background-color: unset;
+}
+.forum-category-box {
+  margin: unset;
+}
+.forum-category-box .description-block {
+  border: unset;
+  margin: unset;
+  padding: unset;
+  background-color: unset;
+  height: unset;
+  overflow: unset;
+}
+.forum-category-box .description-block .statistics {
+  padding: unset;
+  font-size: unset;
+  color: unset;
+  text-align: unset;
+  float: unset;
+}
+.forum-category-box .options {
+  text-align: unset;
+  margin: unset;
+}
+.forum-category-box table {
+  width: unset;
+  border-collapse: unset;
+  border-spacing: unset;
+  border: unset;
+  margin: unset;
+  padding: unset;
+}
+.forum-category-box table td {
+  border: unset;
+  padding: unset;
+}
+.forum-category-box table tr.head td {
+  text-align: unset;
+  font-size: unset;
+  background-color: unset;
+}
+.forum-category-box table td.name .description {
+  color: unset;
+  font-size: unset;
+}
+.forum-category-box table td.name .title {
+  font-weight: unset;
+}
+.forum-category-box table td.last {
+  width: unset;
+  font-size: unset;
+  text-align: unset;
+}
+.forum-category-box table td.posts {
+  width: unset;
+  text-align: unset;
+}
+.forum-category-box table td.started {
+  width: unset;
+  text-align: unset;
+  font-size: unset;
+}
+.forum-category-box .pager {
+  margin: unset;
+  text-align: unset;
+}
+.forum-new-thread-box .description {
+  border: unset;
+  margin: unset;
+  padding: unset;
+  background-color: unset;
+  overflow: unset;
+}
+.forum-new-thread-box .description .statistics {
+  padding: unset;
+  font-size: unset;
+  color: unset;
+  text-align: unset;
+  float: unset;
+}
+.forum-thread-box {
+  margin: unset;
+}
+.forum-thread-box .description-block {
+  border: unset;
+  margin: unset;
+  padding: unset;
+  background-color: unset;
+  overflow: unset;
+  height: unset;
+}
+.forum-thread-box .description-block .head {
+  color: unset;
+  font-size: unset;
+}
+.forum-thread-box .description-block .statistics {
+  margin: unset;
+  padding: unset;
+  font-size: unset;
+  color: unset;
+  text-align: unset;
+  float: unset;
+}
+.forum-thread-box .options {
+  text-align: unset;
+  margin: unset;
+}
+.forum-thread-box .action-area {
+  margin: unset;
+  padding: unset;
+  border: unset;
+}
+.thread-container .post {
+  padding: unset;
+  width: unset; 
+}
+.thread-container .post .options a {
+  margin: unset;
+  padding: unset;
+  color: unset;
+}
+.thread-container .post .head {
+  padding: unset;
+  background-color: unset;
+}
+.thread-container .post .long .head .options {
+  float: unset;
+  margin: unset;
+  padding: unset;
+}
+.thread-container .post .long .head .title {
+  font-weight: unset;
+  font-size: unset;
+}
+.thread-container .post .long .changes {
+  font-size: unset;
+  color: unset;
+  text-align: unset;
+  margin-bottom: unset;
+}
+.thread-container .post .long .changes a {
+  color: unset;
+}
+.thread-container .post .long .revisions {
+  text-align: unset;
+  padding: unset;
+  font-size: unset;
+}
+.thread-container .post .long .revisions .title {
+  font-weight: unset;
+  font-size: unset;
+  padding-bottom: unset;
+}
+.thread-container .post .long .revisions table {
+  margin: unset;
+  font-size: unset;
+}
+.thread-container .post .long .revisions table tr.active td {
+  background-color: unset;
+}
+.thread-container .post .long .options {
+  text-align: unset;
+  margin: unset;
+  padding: unset;
+  height: unset;
+}
+.thread-container .post .short {
+  display: unset;
+  background-color: unset;
+  padding: unset;
+}
+.thread-container .post .short .options {
+  color: unset;
+  float: unset;
+  margin: unset;
+  padding: unset;
+}
+.thread-container .post .signature {
+  font-size: unset;
+}
+.thread-container .post .signature hr.signature-separator {
+  margin: unset;
+  padding: unset;
+  width: unset;
+}
+.thread-container .post.folded .long {
+  display: unset;
+}
+.thread-container .post.folded .short {
+  display: unset;
+}
+.post-container .post-container {
+  margin-left: unset;
+}
+.post-container.fordelete {
+  border: unset;
+  padding: unset;
+}
+div.new-post {
+  text-align: unset;
+  margin: unset;
+}
+div.new-post a {
+  border: unset;
+  background-color: unset;
+  padding: unset;
+  font-size: unset;
+  font-weight: unset;
+}
+.forum-recent-posts-box .pager {
+  margin: unset;
+  text-align: unset;
+}
+.forum-mini-stat {
+  margin: unset;
+}
+.forum-mini-stat .item .info {
+  color: unset;
+  font-size: unset;
+}
+.wd-editor-toolbar-panel div {
+  height: unset;
+}
+.wd-editor-toolbar-panel a {
+  margin: unset;
+  border: unset;
+  background-color: unset;
+}
+.wd-editor-toolbar-panel a:hover {
+  border-color: unset;
+}
+.wd-editor-toolbar-panel ul {
+  padding: unset;
+  margin: unset;
+  float: unset;
+  list-style: unset;
+}
+.wd-editor-toolbar-panel ul li {
+  padding: unset;
+  margin: unset;
+  float: unset;
+}
+.wd-editor-toolbar-panel ul li ul {
+  position: unset;
+  
+  left: unset;
+  z-index: unset;
+}
+.wd-editor-toolbar-panel ul li ul li a {
+  float: unset;
+}
+.wd-editor-toolbar-panel ul li ul li {
+  margin: unset;
+}
+.wd-editor-toolbar-panel ul li ul li a {
+  display: unset;
+  float: unset;
+}
+.wd-editor-toolbar-panel ul li:hover ul,
+.wd-editor-toolbar-panel ul li.sfhover ul {
+  left: unset;
+  background-color: unset;
+  border: unset;
+}
+.wd-editor-toolbar-panel li.hseparator {
+  width: unset;
+  height: unset;
+  margin: unset;
+  background-color: unset;
+}
+.wd-editor-toolbar-panel ul li a {
+  height: unset;
+  width: unset;
+  padding: unset;
+  margin: unset;
+  display: unset;
+}
+.wd-editor-toolbar-panel ul li a span {
+  display: unset;
+}
+.wd-editor-toolbar-panel a {
+  background-image: unset;
+}
+.wd-editor-toolbar-panel a:hover {
+  background-image: unset;
+}
+a.weditor-bold {
+  background-position: unset;
+}
+a.weditor-italic {
+  background-position: unset;
+}
+a.weditor-underline {
+  background-position: unset;
+}
+a.weditor-strikethrough {
+  background-position: unset;
+}
+a.weditor-teletype {
+  background-position: unset;
+}
+a.weditor-quote {
+  background-position: unset;
+}
+a.weditor-superscript {
+  background-position: unset;
+}
+a.weditor-subscript {
+  background-position: unset;
+}
+a.weditor-raw {
+  background-position: unset;
+}
+a.weditor-hr {
+  background-position: unset;
+}
+a.weditor-div {
+  background-position: unset;
+}
+a.weditor-clearfloat {
+  background-position: unset;
+}
+a.weditor-clearfloatleft {
+  background-position: unset;
+}
+a.weditor-clearfloatright {
+  background-position: unset;
+}
+a.weditor-divwiz {
+  background-position: unset;
+}
+a.weditor-table {
+  background-position: unset;
+}
+a.weditor-toc {
+  background-position: unset;
+}
+a.weditor-uri {
+  background-position: unset;
+}
+a.weditor-uriwiz {
+  background-position: unset;
+}
+a.weditor-pagelink {
+  background-position: unset;
+}
+a.weditor-pagelinkwiz {
+  background-position: unset;
+}
+a.weditor-image {
+  background-position: unset;
+}
+a.weditor-imagewiz {
+  background-position: unset;
+}
+a.weditor-video {
+  background-position: unset;
+}
+a.weditor-audio {
+  background-position: unset;
+}
+a.weditor-code {
+  background-position: unset;
+}
+a.weditor-codewiz {
+  background-position: unset;
+}
+a.weditor-numlist {
+  background-position: unset;
+}
+a.weditor-bullist {
+  background-position: unset;
+}
+a.weditor-incindent {
+  background-position: unset;
+}
+a.weditor-decindent {
+  background-position: unset;
+}
+a.weditor-deflist {
+  background-position: unset;
+}
+a.weditor-footnote {
+  background-position: unset;
+}
+a.weditor-math {
+  background-position: unset;
+}
+a.weditor-mathinline {
+  background-position: unset;
+}
+a.weditor-eqref {
+  background-position: unset;
+}
+a.weditor-bib {
+  background-position: unset;
+}
+a.weditor-bibcite {
+  background-position: unset;
+}
+a.weditor-h1 {
+  background-position: unset;
+}
+a.weditor-h2 {
+  background-position: unset;
+}
+a.weditor-h3 {
+  background-position: unset;
+}
+a.weditor-h4 {
+  background-position: unset;
+}
+a.weditor-h5 {
+  background-position: unset;
+}
+a.weditor-h6 {
+  background-position: unset;
+}
+a.weditor-html {
+  background-position: unset;
+}
+.odialog-shader,
+.odialog-shader-iframe {
+  position: unset;
+  top: unset;
+  left: unset;
+  width: unset;
+  height: unset;
+  z-index: unset;
+}
+.odialog-shader {
+  background-color: unset;
+  filter: unset;
+  opacity: unset;
+}
+.odialog-shader-iframe {
+  filter: unset;
+  opacity: unset;
+}
+table#odialog-box-container {
+  position: unset;
+  width: unset;
+  margin: unset;
+  left: unset;
+}
+table#odialog-box-container td {
+  width: unset;
+  height: unset;
+  text-align: unset;
+  vertical-align: unset;
+}
+table#odialog-box-container td div {
+  margin: unset;
+}
+#odialog-wrapper {
+  text-align: unset;
+}
+#odialog-container {
+  position: unset;
+  top: unset;
+  height: unset;
+  z-index: unset;
+  width: unset;
+}
+.owindow {
+  background-color: unset;
+  width: unset;
+  border: unset;
+  text-align: unset;
+  position: unset;
+}
+.owindow .close {
+  float: unset;
+  padding: unset;
+  font-size: unset;
+  cursor: unset;
+  cursor: unset;
+}
+.owindow .title {
+  cursor: unset;
+  font-size: unset;
+  font-weight: unset;
+  padding: unset;
+  background-color: unset;
+  height: unset;
+}
+.owindow .content {
+  padding: unset;
+}
+.owindow .button-bar {
+  text-align: unset;
+  padding: unset;
+  margin: unset;
+}
+.owindow .button-bar input {
+  padding: unset;
+}
+.owindow .button-bar a {
+  margin: unset;
+  padding: unset;
+  text-decoration: unset;
+  background-color: unset;
+  border: unset;
+}
+.owindow .button-bar a:hover {
+  background-color: unset;
+}
+.owindow.owait {
+  width: unset;
+}
+.owindow.owait .content {
+  margin: unset;
+  padding: unset;
+  background-repeat: unset;
+  background-position: unset;
+  background-image: unset;
+}
+.owindow.osuccess {
+  width: unset;
+}
+.owindow.osuccess .content {
+  margin: unset;
+  padding: unset;
+}
+.box444 {
+  background-color: unset;
+  width: unset;
+  top: unset;
+  left: unset;
+}
+.box444 .button-bar {
+  background-color: unset;
+  text-align: unset;
+  padding: unset;
+}
+.hovertip {
+  display: unset; 
+  width: unset; 
+  border: unset;
+  background-color: unset;
+  z-index: unset;
+}
+.hovertip .title {
+  font-weight: unset;
+  padding: unset;
+  font-size: unset;
+}
+.hovertip .content {
+  padding: unset;
+}
+#jquery-overlay {
+  position: unset;
+  top: unset;
+  left: unset;
+  z-index: unset;
+  width: unset;
+  height: unset;
+}
+#jquery-lightbox {
+  position: unset;
+  top: unset;
+  left: unset;
+  width: unset;
+  z-index: unset;
+  text-align: unset;
+  line-height: unset;
+}
+#jquery-lightbox a img {
+  border: unset;
+}
+#lightbox-container-image-box {
+  position: unset;
+  background-color: unset;
+  width: unset;
+  height: unset;
+  margin: unset;
+}
+#lightbox-container-image {
+  padding: unset;
+}
+#lightbox-loading {
+  position: unset;
+  top: unset;
+  left: unset;
+  height: unset;
+  width: unset;
+  text-align: unset;
+  line-height: unset;
+}
+#lightbox-nav {
+  position: unset;
+  top: unset;
+  left: unset;
+  height: unset;
+  width: unset;
+  z-index: unset;
+}
+#lightbox-container-image-box > #lightbox-nav {
+  left: unset;
+}
+#lightbox-nav a {
+  outline: unset;
+}
+#lightbox-nav-btnPrev,
+#lightbox-nav-btnNext {
+  width: unset;
+  height: unset;
+  zoom: unset;
+  display: unset;
+}
+#lightbox-nav-btnPrev {
+  left: unset;
+  float: unset;
+}
+#lightbox-nav-btnNext {
+  right: unset;
+  float: unset;
+}
+#lightbox-container-image-data-box {
+  font: unset;
+  background-color: unset;
+  margin: unset;
+  line-height: unset;
+  overflow: unset;
+  width: unset;
+  padding: unset;
+}
+#lightbox-container-image-data {
+  padding: unset;
+  color: unset;
+}
+#lightbox-container-image-data #lightbox-image-details {
+  width: unset;
+  float: unset;
+  text-align: unset;
+}
+#lightbox-image-details-caption {
+  font-weight: unset;
+}
+#lightbox-image-details-currentNumber {
+  display: unset;
+  clear: unset;
+  padding-bottom: unset;
+}
+#lightbox-secNav-btnClose {
+  width: unset;
+  float: unset;
+  padding-bottom: unset;
+}
+#navi-bar-shadow {
+  height: unset;
+}
+#navi-bar {
+  font-size: unset;
+  font-family: unset;
+  height: unset;
+  background-color: unset;
+  background-image: unset;
+  background-position: unset;
+  border-bottom: unset;
+  color: unset;
+  position: unset;
+  top: unset;
+  width: unset;
+  z-index: unset;
+  overflow: unset;
+}
+#navi-bar a {
+  color: unset;
+  background: unset;
+  padding: unset;
+  margin: unset;
+  text-decoration: unset;
+}
+#navi-bar a:hover {
+  background-color: unset;
+  text-decoration: unset;
+}
+#navi-bar a.logo {
+  position: unset;
+  left: unset;
+  top: unset;
+  width: unset;
+  height: unset;
+  background-image: unset;
+  filter: unset;
+  z-index: unset;
+}
+#navi-bar a.logo span {
+  display: unset;
+}
+#navi-bar .new-site {
+  position: unset;
+  left: unset;
+  top: unset;
+}
+#navi-bar .new-site input.text {
+  width: unset;
+  text-align: unset;
+}
+#navi-bar .new-site input.empty {
+  color: unset;
+}
+#navi-bar .share {
+  position: unset;
+  left: unset;
+  top: unset;
+}
+#navi-bar .share span {
+  vertical-align: unset;
+}
+#navi-bar .share img {
+  width: unset;
+  height: unset;
+}
+#navi-bar .action-buttons {
+  display: unset;
+  position: unset;
+  top: unset;
+  right: unset;
+  height: unset;
+  padding: unset;
+  color: unset;
+}
+#navi-bar .action-buttons a {
+  padding: unset;
+  color: unset;
+}
+#navi-bar .join {
+  display: unset;
+  position: unset;
+  left: unset;
+  top: unset;
+  color: unset;
+  font-weight: unset;
+}
+#navi-bar .random-site {
+  display: unset;
+  position: unset;
+  top: unset;
+  right: unset;
+  height: unset;
+  padding: unset;
+  color: unset;
+}
+#navi-bar .random-site:hover {
+  border-color: unset;
+}
+#navi-bar .close {
+  position: unset;
+  right: unset;
+  top: unset;
+}
+#footer-bar {
+  max-width: unset;
+  margin: unset;
+  padding-top: unset;
+  overflow: unset;
+  border-top: unset;
+}
+#footer-bar h2 {
+  font-size: unset;
+  padding: unset;
+  margin: unset;
+  text-align: unset;
+  font-weight: unset;
+}
+#footer-bar .units {
+  overflow: unset;
+}
+#footer-bar .unit {
+  float: unset;
+  width: unset;
+}
+#footer-bar .unit .inner {
+  padding: unset;
+  text-align: unset;
+}
+#footer-bar .unit .image {
+  display: unset;
+  height: unset;
+  overflow: unset;
+  text-decoration: unset;
+}
+#footer-bar h3 {
+  margin: unset;
+  padding: unset;
+  font-size: unset;
+  font-weight: unset;
+}
+#footer-bar a {
+  text-decoration: unset;
+  background: unset;
+  opacity: unset;
+}
+#footer-bar a:hover {
+  text-decoration: unset;
+  background: unset;
+}
+#footer-bar .desc {
+  font-size: unset;
+}
+#footer-bar .close {
+  float: unset;
+  margin: unset;
+}
+#footer-bar .ads-here {
+  text-align: unset;
+  padding: unset;
+}
+.form-table .form-value {
+  display: unset;
+}
+.form-table .form-error {
+  border: unset;
+}
+.form-table .form-hinted {
+  color: unset;
+}
+.form-table .form-message {
+  color: unset;
+  display: unset;
+}
+iframe.html-block-iframe {
+  width: unset;
+  margin: unset;
+  padding: unset;
+  border: unset;
+  height: unset;
+  background: unset;
+}
+#boonity_free_site_bottom {
+  margin: unset;
+}
+.awesome,
+.awesome:hover {
+  background-color: unset;
+  color: unset;
+}
+.awesome {
+  padding: unset;
+  font-size: unset;
+}
+.awesome:active {
+  padding: unset;
+}
+.awesome {
+  border: unset;
+  cursor: unset;
+  font-style: unset;
+  font-weight: unset;
+  line-height: unset;
+  position: unset;
+  text-align: unset;
+  text-decoration: unset;
+  margin-top: unset;
+  margin-bottom: unset;
+  text-shadow: unset;
+  border-radius: unset;
+  -moz-border-radius: unset;
+  -webkit-border-radius: unset;
+  box-shadow: unset;
+  -moz-box-shadow: unset;
+  -webkit-box-shadow: unset;
+  background-image: unset;
+  background-position: unset;
+  background-repeat: unset;
+  background-image: unset;
+  background-image: unset;
+  background-image: unset;
+  display: unset;
+  display: unset;
+  vertical-align: unset;
+  position: unset;
+  -moz-user-select: unset;
+}
+@media all and (-webkit-min-device-pixel-ratio: 10000), not all and (-webkit-min-device-pixel-ratio: 0) {
+  input.awesome {
+    border: unset;
+  }
+}
+.awesome::-moz-selection {
+  background: unset;
+}
+.awesome::selection {
+  background: unset;
+}
+.awesome {
+  outline: unset; 
+}
+.awesome::-moz-focus-inner {
+  border: unset; 
+}
+.awesome:focus,
+.awesome:hover {
+  background-image: unset;
+  background-image: unset;
+  background-image: unset;
+}
+.awesome:active {
+  background-image: unset;
+  background-image: unset;
+  background-image: unset;
+  box-shadow: unset;
+  -moz-box-shadow: unset;
+  -webkit-box-shadow: unset;
+}
+.awesome.blue,
+.awesome.blue:hover {
+  background-color: unset;
+}
+.awesome.darkblue,
+.awesome.darkblue:hover {
+  background-color: unset;
+}
+.awesome.red,
+.awesome.red:hover {
+  background-color: unset;
+}
+.awesome.green,
+.awesome.green:hover {
+  background-color: unset;
+}
+.awesome.grey,
+.awesome.grey:hover {
+  background-color: unset;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .awesome:active {
+    -webkit-box-shadow: unset;
+  }
+}
+.awesome.small {
+  padding: unset;
+  font-size: unset;
+}
+.awesome.small:active {
+  padding: unset;
+}
+.awesome.medium:active {
+  padding: unset;
+}
+.awesome.large {
+  padding: unset;
+  font-size: unset;
+}
+.awesome.large:active {
+  padding: unset;
+}
+.awesome.larger {
+  padding: unset;
+  font-size: unset;
+}
+.awesome.larger:active {
+  padding: unset;
+}
+.awesome.huge {
+  padding: unset;
+  font-size: unset;
+}
+.awesome.huge:active {
+  padding: unset;
+}
+table.guest-commenting {
+  border-collapse: unset;
+  border: unset;
+  padding: unset;
+  margin-bottom: unset;
+}
+table.guest-commenting td {
+  padding: unset;
+}
+table.guest-commenting td input {
+  margin: unset;
+}
+table.guest-commenting td label.hint {
+  color: unset;
+}
+.wikidot-hybrid-module-loading {
+  padding-top: unset;
+  background: unset;
+}
+#tiptip_holder {
+  display: unset;
+  position: unset;
+  top: unset;
+  left: unset;
+  z-index: unset;
+}
+#tiptip_holder.tip_top {
+  padding-bottom: unset;
+}
+#tiptip_holder.tip_bottom {
+  padding-top: unset;
+}
+#tiptip_holder.tip_right {
+  padding-left: unset;
+}
+#tiptip_holder.tip_left {
+  padding-right: unset;
+}
+#tiptip_content {
+  font-size: unset;
+  color: unset;
+  text-shadow: unset;
+  padding: unset;
+  border: unset;
+  background-color: unset;
+  background-color: unset;
+  background-image: unset;
+  border-radius: unset;
+  -webkit-border-radius: unset;
+  -moz-border-radius: unset;
+  box-shadow: unset;
+  -webkit-box-shadow: unset;
+  -moz-box-shadow: unset;
+}
+#tiptip_arrow,
+#tiptip_arrow_inner {
+  position: unset;
+  border-color: unset;
+  border-style: unset;
+  border-width: unset;
+  height: unset;
+  width: unset;
+}
+#tiptip_holder.tip_top #tiptip_arrow {
+  border-top-color: unset;
+  border-top-color: unset;
+}
+#tiptip_holder.tip_bottom #tiptip_arrow {
+  border-bottom-color: unset;
+  border-bottom-color: unset;
+}
+#tiptip_holder.tip_right #tiptip_arrow {
+  border-right-color: unset;
+  border-right-color: unset;
+}
+#tiptip_holder.tip_left #tiptip_arrow {
+  border-left-color: unset;
+  border-left-color: unset;
+}
+#tiptip_holder.tip_top #tiptip_arrow_inner {
+  margin-top: unset;
+  margin-left: unset;
+  border-top-color: unset;
+  border-top-color: unset;
+}
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+  margin-top: unset;
+  margin-left: unset;
+  border-bottom-color: unset;
+  border-bottom-color: unset;
+}
+#tiptip_holder.tip_right #tiptip_arrow_inner {
+  margin-top: unset;
+  margin-left: unset;
+  border-right-color: unset;
+  border-right-color: unset;
+}
+#tiptip_holder.tip_left #tiptip_arrow_inner {
+  margin-top: unset;
+  margin-left: unset;
+  border-left-color: unset;
+  border-left-color: unset;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  #tiptip_content {
+    padding: unset;
+    background-color: unset;
+  }
+  #tiptip_holder.tip_bottom #tiptip_arrow_inner {
+    border-bottom-color: unset;
+  }
+  #tiptip_holder.tip_top #tiptip_arrow_inner {
+    border-top-color: unset;
+  }
+}
+.gallery-image-size-small {
+  max-width: unset;
+  max-height: unset;
+}
+.gallery-image-size-medium {
+  max-width: unset;
+  max-height: unset;
+}
+.gallery-image-size-thumbnail {
+  max-width: unset;
+  max-height: unset;
+}
+.gallery-image-size-square {
+  max-width: unset;
+  max-height: unset;
+}
+#new-post-div input.text {
+  font-weight: unset;
+  font-size: unset;
+  width: unset;
+}
+#new-post-div textarea#np-text {
+  width: unset;
+}
+.flag-user-ok {
+  color: unset;
+  font-size: unset;
+  border: unset;
+  padding: unset;
+  margin: unset;
+}
+.flag-user-abusive {
+  color: unset;
+  font-size: unset;
+  border: unset;
+  padding: unset;
+  margin: unset;
+  text-decoration: unset;
+}
+.unflag-user-ok {
+  color: unset;
+  font-size: unset;
+  border: unset;
+  padding: unset;
+  margin: unset;
+  text-decoration: unset;
+}
+.unflag-user-abusive {
+  color: unset;
+  font-size: unset;
+  border: unset;
+  padding: unset;
+  margin: unset;
+}
+#upload-file-list table .progress .progress-bar {
+  width: unset;
+  left: unset;
+  margin: unset;
+  position: unset;
+  height: unset;
+  z-index: unset;
+}
+#upload-file-list table .progress .progress-bar span {
+  z-index: unset;
+  position: unset;
+  display: unset;
+  text-align: unset;
+  margin: unset;
+}
+#upload-file-list table .progress .progress-bar {
+  background-color: unset;
+  width: unset;
+  height: unset;
+  z-index: unset;
+}
