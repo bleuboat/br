@@ -362,8 +362,6 @@ hr {
 .yui-navset .yui-navset-top .yui-nav li,
 .yui-navset .yui-navset-bottom .yui-nav li {
     display: unset;
-    display: unset;
-    *display: unset; 
     vertical-align: unset; 
     cursor: unset; 
     zoom: unset; 
