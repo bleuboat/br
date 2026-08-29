@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/bleuboat/base@main/base-beta-9.min.css">
+    <script>
+        "use strict";
+        const aiLike = [
+            ["不是……是……", /不是[^。]*?是/],
+            ["值得注意的是", /值得注意的是/],
+            ["破折号", /——/],
+            ["markdown语法", /^##+ |^ *- /],
+        ]
+        function check() {
+            const input = document.getElementById("input").value;
+            const output = document.getElementById(`output`);
+            const paragraphs = input.split("\n").filter(p => p.trim() !== "");
+            const outputs = [];
+            for (let i = 0; i < aiLike.length; i++) {
+                const title = aiLike[i][0];
+                const filterd = paragraphs.filter(p => aiLike[i][1].test(p));
+                outputs.push(`<h1>${title}</h1>`);
+                if (filterd.length === 0) {
+                    outputs.push("<p>无</p>");
+                } else {
+                    outputs.push(filterd.map(p => `<div class="code"><p>${p}</p></div>`).join(""));
+                }
+            }
+            output.innerHTML = outputs.join("");
+        }
+    </script>
+    <style>#main-content::before{display:none;}</style>
+</head>
+<body>
+    <div id="main-content">
+        <div id="page-title">
+            AI文检查器
+        </div>
+        <div id="page-content">
+            <textarea id="input" rows="20" cols="60" placeholder="在此输入页面代码……"></textarea>
+            <div class="buttons"><input type="button" class="button" onclick="check()" value="检查"></div>
+            <div id="output" class="inline-diff"></div>
+        </div>
+    </div>
+</body>
+</html>
