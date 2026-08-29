@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>AI文检查器</title>
     <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/bleuboat/base@main/base-beta-9.min.css">
-    <style>#main-content::before{display:none;}</style>
+    <style>#main-content::before{display:none}</style>
     <script>
         "use strict";
         const aiLike = [
@@ -37,7 +37,7 @@
         <div id="page-title">AI文检查器</div>
         <div id="page-content">
             <textarea id="input" rows="20" cols="60" placeholder="在此输入页面代码……"></textarea>
-            <div class="buttons"><input type="button" class="button" onclick="check()" value="检查"></div>
+            <div class="buttons"><input type="button" onclick="check()" value="检查"></div>
             <div id="output"></div>
         </div>
     </div>
